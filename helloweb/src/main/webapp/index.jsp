@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Hello ~
+	<h1>Hello World</h1>
+	<a href="/helloweb/hello?name=kickscar">누르세요</a>
 </body>
 </html>

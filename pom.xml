@@ -4,4 +4,8 @@
   <artifactId>servlet-practices</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>emaillist01</module>
+  	<module>guestbook01</module>
+  </modules>
 </project>
