@@ -7,8 +7,6 @@
 	List<EmaillistVo> list = new EmaillistDao().findAll();
 %>
 <!DOCTYPE html>
-<%-- <%@page import="emaillist.vo.EmaillistVo" %> --%>
-
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
