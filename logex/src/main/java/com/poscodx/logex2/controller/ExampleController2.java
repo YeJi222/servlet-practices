@@ -22,18 +22,20 @@ public class ExampleController2 {
 		/**
 		 *  이 예제에서는 logback.xml 에서,
 		 *  
-		 *  1. fileAppender2 와 "com.douzone.logexample2" logger 를 살펴 보아야 합니다.
+		 *  1. fileAppender2 와 "com.poscodx.logex2" logger 를 살펴 보아야 합니다.
 		 *  
-		 *  2. fileAppender2 에서는 /logex/logex2.log 로그파일 지정과
+		 *  2. fileAppender2 에서는 /Users/yeji/logex/logex2.log 로그파일 지정과
 		 *  
 		 *  3. 50KB 가 넘었을 때, /logex/logex2.i.log.zip 으로 압축되고 새로 
 		 *     logex2.log 파일이 생성되는 것을 확인해 봐야 합니다.
 		 *    
 		 *  4. 새로운 로거를 세팅하고 있습니다.
-		 *     "com.douzone.logex2" 로거인데, 파일로만 로그를 남기고 있는 것을 확인해야
+		 *     "com.poscodx.logex2" 로거인데, 파일로만 로그를 남기고 있는 것을 확인해야
 		 *     합니다.
 		 *     
 		 *  5. 이 로거의 로그 레벨이 INFO 인 것도 로그 파일에서 확인해 보세요.   
+		 *  
+		 *  /Users/yeji에 logex 폴더 생기고, logex2.log와 logex3.log 파일 생성된 것 확인함 
 		 */
 
 		LOG.debug( "#ex2 - debug log" );
